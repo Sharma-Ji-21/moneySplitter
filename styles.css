@@ -1,0 +1,93 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;  /* Center all text */
+}
+
+h1, h2 {
+    color: #ff3333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #cccccc;
+}
+
+input {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #666666;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 250px;  /* Set width for uniformity */
+}
+
+button {
+    background-color: #ff3333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;  /* Centered text for table */
+    border: 1px solid #444444;
+}
+
+th {
+    background-color: #444444;
+}
+
+td {
+    background-color: #333333;
+}
+
+input::placeholder {
+    color: #999999;
+}
+
+.checkbox-label {
+    margin:0;
+    margin-top: 0%;
+    display: block;
+    color: #ffffff;
+}
+/* Center align the checkboxes and names */
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -7%;
+    align-items: left; /* Center horizontally */
+    /* justify-content: center; Center vertically */
+}
+
+.checkbox-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
